@@ -26,7 +26,6 @@ const Todo = (props) => {
         }
     }
 
-
     const checkboxEventHandler = (e) => {
         item.done = e.target.checked;
         editItem(item);

@@ -32,7 +32,7 @@ function App() {
             <List>
                 {items.map((item) => (
                     <Todo item={item} key={item.id} editItem={editItem} deleteItem={deleteItem} />
-                ))}npm
+                ))}
             </List>
         </Paper>
     )
